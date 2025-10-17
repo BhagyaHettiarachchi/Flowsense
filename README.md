@@ -1,7 +1,6 @@
 # Machine Learning-Based Road Traffic Volume Analysis
 
-## Author
-Sara [Your ID]
+
 
 ## Project Overview
 This project applies machine learning techniques to predict road traffic volume using historical traffic count data. It supports Intelligent Transportation Systems (ITS) by modeling traffic behavior based on temporal and directional features. The implementation is optimized for large datasets and constrained lab environments.
@@ -59,6 +58,7 @@ Machine_Learning_Traffic_Analysis/
 
  ```bash
 python traffic_volume_analysis.py
+
 
 
 
