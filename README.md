@@ -40,6 +40,7 @@ The output graph compares actual vs. predicted traffic counts over a sample of 1
 
 ## File Structure
 Machine_Learning_Traffic_Analysis/
+
 │
 ├── traffic_volume_analysis.py       # Main script
 ├── traffic_volume_dataset.csv       # Dataset
@@ -58,5 +59,6 @@ Machine_Learning_Traffic_Analysis/
 
  ```bash
 python traffic_volume_analysis.py
+
 
 
