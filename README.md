@@ -38,6 +38,15 @@ Decision Tree outperformed Linear Regression, indicating non-linear traffic patt
 ## Visualization
 The output graph compares actual vs. predicted traffic counts over a sample of 100 observations, demonstrating the model’s accuracy and responsiveness to traffic fluctuations.
 
+## Dataset Access
+
+Due to file size limitations, the dataset is not included in this repository.
+
+To use this project:
+
+1. Download the dataset from [Insert Source or Link Here]
+2. Save it as `traffic_volume_dataset.csv` in the project root directory
+
 ## How to Run
 1. Install dependencies:
    ```bash
@@ -50,14 +59,7 @@ The output graph compares actual vs. predicted traffic counts over a sample of 1
 ```bash
 python traffic_model.ipynb
 
-## Dataset Access
 
-Due to file size limitations, the dataset is not included in this repository.
-
-To use this project:
-
-1. Download the dataset from [Insert Source or Link Here]
-2. Save it as `traffic_volume_dataset.csv` in the project root directory
 
 
 
