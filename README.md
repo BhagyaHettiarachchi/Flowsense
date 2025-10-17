@@ -1,7 +1,7 @@
 # Machine Learning-Based Road Traffic Volume Analysis
 
 ## Author
-
+Sara [Your ID]
 
 ## Project Overview
 This project applies machine learning techniques to predict road traffic volume using historical traffic count data. It supports Intelligent Transportation Systems (ITS) by modeling traffic behavior based on temporal and directional features. The implementation is optimized for large datasets and constrained lab environments.
@@ -38,29 +38,25 @@ Decision Tree outperformed Linear Regression, indicating non-linear traffic patt
 ## Visualization
 The output graph compares actual vs. predicted traffic counts over a sample of 100 observations, demonstrating the model’s accuracy and responsiveness to traffic fluctuations.
 
-## Dataset Access
+## File Structure
+Machine_Learning_Traffic_Analysis/
+│
+├── traffic_volume_analysis.py       # Main script
+├── traffic_volume_dataset.csv       # Dataset
+├── README.md                        # Project documentation
+├── Project_Report.docx              # Final APA-style report
+├── Presentation_Slides.pptx         # Final presentation
+├── Turnitin_Report.pdf              # Originality check
 
-Due to file size limitations, the dataset is not included in this repository.
-
-To use this project:
-
-1. Download the dataset from [Insert Source or Link Here]
-2. Save it as `traffic_volume_dataset.csv` in the project root directory
 
 ## How to Run
 1. Install dependencies:
    ```bash
    pip install pandas matplotlib scikit-learn
+   
+2. Place traffic_volume_dataset.csv in the same directory
 
-## Place traffic_volume_dataset.csv in the same directory
-
-1. Run the script:
-
-```bash
-python traffic_model.ipynb
-
-
-
-
+ ```bash
+python traffic_volume_analysis.py
 
 
